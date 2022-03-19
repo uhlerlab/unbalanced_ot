@@ -1,14 +1,10 @@
 import numpy as np
 import torch
-import torchvision
-import torchvision.transforms as transforms
 import visdom
 import argparse
 from torch.utils.data import Dataset, DataLoader, TensorDataset
 import numpy.random as random
-from scipy.io import loadmat
 from collections import Counter
-from PIL import Image
 
 #============= ARGUMENT PARSING ==============
 
